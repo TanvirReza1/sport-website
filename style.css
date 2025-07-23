@@ -169,11 +169,14 @@
  
 }
 
+
+
 .footer-title {
   color: #ffffff;
   font-weight: 600;
   font-size: 2.8rem;
   padding-top: 130px;
+
  
 }
 
@@ -188,6 +191,7 @@ ul>li{
 }
 
 .footer-subtitle{
+ 
   border-top: 1px solid #444;
   width: 80%;
   max-width: 800px;
@@ -203,3 +207,38 @@ ul>li{
 }
 
 
+@media (max-width: 768px) {
+
+  *{
+    overflow-x: hidden;
+  }
+  .banner-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .banner-left {
+    padding-left: 0;
+  }
+
+  .card-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-part-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .footer-title {
+    padding-top: 80px;
+    font-size: 2.2rem;
+  }
+}
