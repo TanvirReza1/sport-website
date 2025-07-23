@@ -16,6 +16,22 @@
   border-radius: 30px;
   background: rgb(22, 22, 22);
   margin-top: 50px;
+  animation: banner-animation .9s ease-out ;
+}
+
+@keyframes banner-animation {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 .banner-left {
@@ -35,8 +51,26 @@
   margin-bottom: 30px;
 }
 
+@keyframes player-animation {
+   0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  
+}
+
 .player {
   display: block;
+  animation: player-animation 1s ease-out infinite  ;
+
 }
 
 .banner-btn {
@@ -152,7 +186,6 @@
 }
 
 .info {
- 
   width: 100%;
   height: 444px;
   margin: 0 auto;
@@ -165,19 +198,14 @@
   gap: 20px;
   justify-content: center;
   align-items: center;
- padding-top: 50px;
- 
+  padding-top: 50px;
 }
-
-
 
 .footer-title {
   color: #ffffff;
   font-weight: 600;
   font-size: 2.8rem;
   padding-top: 130px;
-
- 
 }
 
 .footer-link {
@@ -186,12 +214,11 @@
   font-weight: 500;
 }
 
-ul>li{
+ul > li {
   list-style: none;
 }
 
-.footer-subtitle{
- 
+.footer-subtitle {
   border-top: 1px solid #444;
   width: 80%;
   max-width: 800px;
@@ -203,13 +230,11 @@ ul>li{
   width: 80%;
   max-width: 800px;
   margin: 0 auto 50px;
- color:  rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1);
 }
 
-
 @media (max-width: 768px) {
-
-  *{
+  * {
     overflow-x: hidden;
   }
   .banner-section {
