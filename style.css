@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1321px;
+  margin: 0 auto;
+}
+
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: rgb(22, 22, 22);
+  margin-top: 50px;
+}
+
+.banner-left {
+  padding-left: 106px;
+}
+
+.banner-head {
+  color: rgb(255, 255, 255);
+  font-size: 4.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.player {
+  display: block;
+}
+
+.banner-btn {
+  border-radius: 5px;
+  background: rgb(221, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  border: none;
+}
+
+.btn-size {
+  margin-bottom: 111px;
+  width: 187px;
+  height: 56px;
+}
+
+.card-section {
+  display: flex;
+  margin-top: 100px;
+  gap: 55px;
+  margin-bottom: 130px;
+}
+
+.left-part-container {
+  max-width: 312px;
+  max-height: 312px;
+  width: 100%;
+  border-radius: 10px;
+  background: rgb(22, 22, 22);
+  padding: 30px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 252px;
+  max-height: 252px;
+  width: 100%;
+}
+
+.resize-btn {
+  width: 252px;
+  height: 64px;
+}
+
+.resize-btn:nth-child(1),
+.resize-btn:nth-child(2) {
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(22, 22, 22);
+  border-radius: 10px;
+}
+
+.right-part-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex: 1;
+  gap: 20px;
+}
+
+.card-container {
+  max-width: 312px;
+  width: 100%;
+  max-height: 362px;
+  border: 1px solid rgb(232, 232, 232);
+}
+
+.card-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.transfer-btn {
+  padding: 5px 16px;
+  color: rgb(22, 22, 22);
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-weight: 500;
+  border: 1px solid rgb(22, 22, 22);
+  border-radius: 5px;
+}
+
+.Sport-img {
+  width: 100%;
+  max-width: 312px;
+  max-height: 175px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.description {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.number-msg,
+.Hour {
+  font-weight: 400;
+  color: rgba(22, 22, 22, 0.7);
+}
+
+.fa-clock,
+.fa-message {
+  color: rgba(22, 22, 22, 0.8);
+  border: none;
+}
+
+.info {
+  width: 100%;
+  height: 444px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgb(30, 30, 30);
+}
+
+.footer-ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2.8rem;
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-weight: 500;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.footer-subtitle {
+  border: none;
+  border-top: 1px solid #444;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+.footer-divider {
+  border: none;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  color: rgba(255, 255, 255, 0.1);
+}
