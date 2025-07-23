@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+   font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -143,7 +144,7 @@
 
 .card-footer {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 
 .transfer-btn {
